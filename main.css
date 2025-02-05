@@ -1,0 +1,107 @@
+body {
+    margin:10px auto;
+    width: 80%;
+
+}
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    margin-bottom: 10px;
+}
+p {
+    font-size: 0.5vw;
+    color: #333;
+     text-align: justify;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+}
+
+ul.posts { 
+    margin: 20px auto 40px;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+.list-group-item {
+    border: none;
+}
+
+
+.main-body{
+    padding-top: 50px;
+    margin: auto;
+    
+}
+
+.introduction-container {
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color:#F2F1EF;
+}
+
+
+.research-container{
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color:#F2F1EF;
+    padding: 10px;
+}
+
+
+.news-container{
+    margin-top: 30px;
+}
+
+.research-container{
+    margin-top: 30px;
+}
+
+
+.introduction-avata {
+    text-align: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+
+}
+
+.avatar{
+    height: 150px;
+    border-radius: 50%;
+}
+.avatar-square{
+    height: 130px;
+    border-radius: 10%;
+}
+li {
+    padding-left: 30px;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.debug-border{
+    border: solid 1px red;
+}
+
+.education-item{
+    
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link to main stylesheet -->
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="myjs.js"></script>
+
+      <meta name="description" content="Hoang-Giang Cao personal site">
+     <title>Game, Control & Intellgence GCI Lab)</title>
+
+  </head>
+  <body>
+  <?php include("navbar.php"); ?>
+
+<div class="main-body">
+			<div class="container introduction-container col-md-10 col-md-offset-1 ">
+			    <div class="row">
+                    <div class="col-md-9 col-sm-9">
+                        <h2 class="text-success">Hoang-Giang Cao (高黃江)</h2>
+                    <p class="lead">
+                    <b><text class='text-primary'>Assistant Professor</text></b> <br>
+                    Bachelor Program in Industrial Artificial Intelligence<br>
+                    Center for Artificial Intelligence & Data Science<br>
+                    Ming Chi University of Technology. Taiwan<br>
+                    Email: <text class='text-primary'>chgiang@mail.mcut.edu.tw</text>
+                    </p>
+                    </div>
+                    <!-- <div class="col-md-5 col-sm-5">
+                    <p class="lead">
+                    Lecturer<br>
+                    Department of Software Engineer<br>
+                    CITC<br>
+                    Can Tho University, Vietnam.<br>
+                    </p>
+                    </div> -->
+                    <div class="col-md-3 col-sm-3 introduction-avata">
+                        <img src="images/avatar.jpg" class=" avatar" alt="Hoang-Giang Cao">
+                    </div>
+                </div>
+                </div>
+
+                <div class="container introduction-container col-md-10 col-md-offset-1 ">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+                        <h4><text class="text-primary"></text></h4>
+                        <p class="lead">
+                        I completed my Master's and Ph.D. at <a href="https://cgilab-tw.github.io/">Computer Game and Intelligence (CGI) Lab</a> under the guidance of <a href="https://icwu307.github.io/"> Professor I-Chen Wu</a> at
+                        National YangMing ChiaoTung University, Taiwan.
+                        </p>
+						<p class="lead">
+							I'm interested in applying Artificial Intelligence and Deep Reinforcement Learning to Computer Games, Robotics, and Autonomous Driving</br>
+						</p>
+						<p class="lead">
+							My research focuses on object representation for robotic manipulation, developing AI/Deep RL to achieve human-level performance in video games, and optimizing smooth control policies for autonomous vehicles.</br>
+						</p>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- <div class="container research-container col-md-10 col-md-offset-1">
+				<div class="row">
+					<h2><span class="label label-info">Research</span></h2>
+
+				</div>
+			</div> -->
+		</div>
+
+        <div class="container introduction-container col-md-10 col-md-offset-1">
+
+                <div class="row lead">
+                    <h4><text class="text-primary">Experiences</text></h4>
+    <div class="row education-item">
+            <text class='text-primary'><b>2024-Present: Assitant Professor</b></text><br>
+            <text class='text-secondary'>&emsp;Bachelor Program in Industrial Artificial Intelligence</text><br>
+            <text class='text-secondary'>&emsp;Center of Artificial Intelligence and Data Science</text><br>
+            <text class='text-secondary'>&emsp;Ming Chi University of Technology, Taiwan</text><br>
+    </div>
+    <div class="row education-item">
+            <text class='text-primary'><b>2023-2024: Post-doc</b></text><br>
+            <text class='text-secondary'>&emsp;Center of Artificial Intelligence and Data Science</text><br>
+            <text class='text-secondary'>&emsp;Ming Chi University of Technology, Taiwan</text><br>
+    </div>
+    <div class="row education-item">
+            <text class='text-primary'><b>2017-2018: Visiting Researcher</b></text><br>
+            <text class='text-secondary'>&emsp;Computer Graphics and Animation</text><br>
+            <text class='text-secondary'>&emsp;Bournemouth Univeristy, UK</text><br>
+    </div>
+    
+    <div class="row education-item">
+            <text class='text-primary'><b>2012-Present: Lecturer</b></text><br>
+            <text class='text-secondary'>&emsp;Department of Software Engineer</text><br>
+            <text class='text-secondary'>&emsp;Can Tho University, Vietnam</text><br>
+    </div>
+ 
+</div>
+            </div>  
+
+        <div class="container introduction-container col-md-10 col-md-offset-1">
+
+                <div class="row lead">
+                    <h4><text class="text-primary">Education</text></h4>
+    <div class="row education-item">
+            <text class='text-primary'> <b>M.S & Ph.D – Computer Science</b></text><br>
+            <text class='text-secondary'>&emsp;National Yang Ming Chiao Tung University, Taiwan (2015-2017 & 2018–2023)</text><br>
+            <text class='text-secondary'>&emsp;Advisor: Professor I-Chen Wu (icwu@cs.nctu.edu.tw)</text><br>
+            <text class='text-secondary'>&emsp;PhD Thesis: Image-based Regularization for Robotic Operations and Autonomous Racing with Reinforcement Learning</text><br>
+            <text class='text-secondary'>&emsp;Master Thesis: Deep Reinforcement Learning for Ms. PacMan</text><br>
+        
+    </div>
+    
+    <div class="row education-item">
+        
+            <text class='text-primary'><b>B.S – Software Engineering</b></text><br>
+            <text class='text-secondary'>&emsp;Can Tho University, Vietnam (2008–2012)</text><br>
+            <text class='text-secondary'>&emsp;Thesis: Tetris on Android & Artificial Intelligence Algorithms for Automatic Solution</text><br>
+        </div>
+ 
+</div>
+            </div>
+
+
+
+<?php include("footer.php"); ?>
+	</body>
+</html>
